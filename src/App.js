@@ -5,7 +5,8 @@ import dadosIniciais from './data/dados_iniciais.json'
 import Carousel from './components/Carousel'
 function App() {
   return (
-    <div>
+    <div style={{background:"#141414"}}>
+
       <Menu />
       <BanerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
