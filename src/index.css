@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+  --primary: #f00b0b;
+  --black: rgba(0, 0, 0, 0.699);
+  --blackLigther: #9E9E9E;
+  --grayLight: #F5F5F5;
+  --grayMedius: #e5e5e5;
+  --white: #FFFFFF;
+  --frontEnd: #6bD1FF;
+  --backEnd: #00C86F;
+}
+html , body {
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+}
