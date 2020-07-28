@@ -4,7 +4,8 @@
 }
 :root{
   --primary: #f00b0b;
-  --black: rgba(0, 0, 0, 0.699);
+  --black: rgba(0, 0, 0, 0.7);
+  --blackfundo: #000000;
   --blackLigther: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedius: #e5e5e5;
@@ -18,4 +19,10 @@ html , body {
 }
 a{
   color: inherit;
+}
+
+#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
